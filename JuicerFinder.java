@@ -68,13 +68,13 @@ public class JuicerFinder {
         juiceNeed = user_input.next();
 
         if(juiceNeed.equals("Brain")) {
-            System.out.println(brain + ", These guys work wonders on your brain and can definitely optimize your brain ");
+            System.out.println(brain + ", These guys work wonders on your brain and can definitely optimize concentation, memory, and mental performance ");
         }
         else if(juiceNeed.equals("Energy")) {
             System.out.println(energy);
         }
         else if(juiceNeed.equals("Kidneys")) {
-            System.out.println(kidney + " are excellent at removing toxins in your kidneys and helping with renal functions");
+            System.out.println(kidney + " are excellent in detoxing your kidneys and helping in renal function");
         }
         else if(juiceNeed.equals("Hypertension")) {
             System.out.println(bP + " are the most effective in lowering blood pressure");
@@ -86,7 +86,7 @@ public class JuicerFinder {
             System.out.println("Don't have that yet, " +
                     "try again later as I continue to build my cookbook");
         }
-        System.out.println(name + ", consume these guys at least once a day, are you can dramatically change your life");
+        System.out.println(name + ", consume these guys at least once a day, and you can dramatically change your life");
 
 
 
